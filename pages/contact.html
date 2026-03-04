@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Contact</title>
+    <link rel="stylesheet" href="../assets/css/contact.css">
+    <link rel="shortcut icon" href="../assets/images/images_contact/logo.webp">
+    <script src="../assets/js/navbar.js"></script>
+</head>
+<body>
+<header>
+    <div  class="nomrestau"> 
+        <img src="../assets/images/images_contact/logo.webp" alt="logo">
+        <a href="#"> Throubi Restaurant <span>at Andronis Concept
+        </span></a> 
+    </div>
+    <input class="boutonmenu" type="checkbox" name="nav" id="check">
+        <div class="containermenu">
+            <label for="check">
+                <span id="times"><img class="icon" src="../assets/images/images_contact/X.webp" alt="icone_X"></span>
+                <span id="bars"><img class="icon" src="../assets/images/images_contact/barre_menu.webp" alt="icone_BarresMenu"></span>
+            </label>
+            <div class="head"> Allez dans : </div>
+            <ol>
+                <li> <a href="../index.html" target="_blank"><img class="icon" src="../assets/images/images_contact/accueil.webp" alt="icone_accueil">Acceuil </a></li>
+                <li> <a href="menu.html" target="_blank"><img class="icon" src="../assets/images/images_contact/menu.webp" alt="icone_menu">Menu </a></li>
+                <li> <a href="#"><img class="icon" src="../assets/images/images_contact/contact.webp" alt="icone_contact">Contact </a></li>
+            </ol>
+        </div>
+</header>
+<div class="fond">
+  <a href="https://maps.app.goo.gl/VU6ybJ7tkYCjif8k9" target="_blank" rel="noopener">Eparchiaki Odos Firon-Ias, Imerovigli 84700 Grèce</a>
+</div>
+
+  <!--section formulaire-->
+<div class="container">
+    <form action="contact.html" method="post">
+        <h2>Réservation</h2>
+        <div class="contenu">
+            <div class="champ">
+                <label for="name"> Nom </label>
+                <input type="text" placeholder="Danny" name="name" id="name">
+            </div>
+            <div class="champ">
+                <label for="username"> Prénom </label>
+                <input type="text" placeholder="Lea" name="username" id="username">
+            </div>
+            <div class="champ">
+                <label for="email"> Email</label>
+                <input type="email" placeholder="leadanny@gmail.com" name="email" id="email">
+            </div>
+            <div class="champ">
+                <label for="address"> Adresse</label>
+                <input type="text" placeholder="Rue 11, Paris , France" name="address" id="address">
+            </div>
+            <div class="champ">
+                <label for="datereservation"> Date de reservation</label>
+                <input id="datereservation" type="date" name="datereservation">
+            </div>
+            <div class="champ">
+                <label for="heure"> Heure de réservation </label>
+                <input type="text" name="heure" id="heure" placeholder="12h00" >
+            </div>
+            <div class="champ">
+                <label for="phonenumber"> N° telephone </label>
+                <input type="text" placeholder="+1 65 42 88 98" name="phonenumber" id="phonenumber">
+            </div>
+            <div class="champ">
+                <div class="password">
+                <label for="password"> Mot de passe </label>
+                <input type="password" placeholder="Minimum 5 caractères" name="password" id="password">
+                <i class="fas fa-lock"></i>
+                </div>
+            </div>
+            <div class="champ">
+                <label for="cpassword"> Mot de passe confirmé </label>
+                <input type="password" placeholder="Tappez le premier mot de passe" name="confirmpassword" id="cpassword">
+            </div>
+            <div class="champ">
+                <label for="message"> Votre message </label>
+                <textarea id="message"> Tappez votre message içi </textarea>
+            </div>
+            <span class="gender"> Sexe </span>
+            <div class="gender-category">
+               <input type="radio" name="gender" id="male">
+               <label for="male"> Homme </label>
+               <input type="radio" name="gender" id="female">
+               <label for="female"> Femme </label>
+            </div>
+        </div>
+        <div class="alert">
+            <p>En cliquant sur <span> Réserver </span>, votre reservation sera prise en charge et vous recevrez un<span> SMS</span> de notre site pour vous mettre à jour sur votre reservation .</p>
+           </div> 
+        <div class="buttomcontainer">
+            <button type="submit">Réserver</button>
+        </div>
+    </form>
+</div>
+
+   <!--section carte maps-->
+<div class="container-map">
+    <h2> <img src="../assets/images/images_contact/localisation.png" alt="icone_localisation"> Soyez les Bienvenues </h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3209.8275516188937!2d25.42170247461324!3d36.43755238806018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1499cc4c8e836515%3A0xd3bd0bcf02219a2!2sThroubi%20Restaurant%20at%20Andronis%20Concept!5e0!3m2!1sfr!2sdz!4v1712348927733!5m2!1sfr!2sdz" name="map" title="map"></iframe>
+</div>
+
+   <!--pied de la page-->
+<footer class="footer">
+    <div class="footerLeft">
+        <div class="reseaux">
+            <h3> Contatactez nous sur :</h3>
+            <ul class="listeMedia">
+              <li><a href="https://www.instagram.com/throubisantorini/" target="_blank" rel="noopener"><img src="../assets/images/images_contact/insta2.png" alt="icone_instagram"> Instagram </a></li>
+              <li><a href="https://www.google.com/intl/fr/gmail/about/"target="_blank" rel="noopener"><img src="../assets/images/images_contact/email.png" alt="icone_facebook" > Email:malito:reservations@throubirestaurant.com </a></li>
+              <li><a href="https://www.facebook.com/throubisantorini" target="_blank" rel="noopener"><img src="../assets/images/images_contact/fb4.png" alt="icone_facebook" > Facebook </a></li>
+              <li><img src="../assets/images/images_contact/tel2.png" alt="icone_telephone"> N° telephone : +30 281 033 4971.</li>
+             </ul>
+        </div>
+    </div>
+    <div class="footerCenter">
+        <div class="logo">
+          <img src="../assets/images/images_contact/logo.webp" alt="Logo du restaurant">
+        </div>
+        <p class="footerLinks">
+        <a href="../index.html" target="_blank"> Acceuil </a>
+        |
+        <a href="menu.html" target="_blank"> Menu </a>
+        |
+        <a href="#"> Contact </a>
+        </p>
+        <p class="footerCompanyName"> Copyright 2024 &copy; <strong>Throubi Restaurant</strong>  Tous les Droits sont Reservés.</p>
+    </div>
+    <div class="footerRight" >
+        <h3> Nos horaires :</h3>
+        <ul>
+            <li> <img src="../assets/images/images_contact/porte_ouverte.png" alt="icone_porteOuverte"><p>Ouvert du Lundi au Samedi<br>11h-00h.</p></li>
+            <li> <img src="../assets/images/images_contact/porte_fermee.png" alt="icone_porteFermée"><p>Fermé le Dimanche.</p></li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>
